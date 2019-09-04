@@ -1,0 +1,167 @@
+/***** BASE STYLES *****/
+.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 1200px;
+  height:auto;
+  padding: 0 70px 0 100px;
+}
+
+h1, h3 {
+    font-family: 'Libre Baskerville';
+}
+h1 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 36px;
+  padding: 164px 0;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.bottom-third {
+  background-color: #6E826B;
+  padding: 0;
+  margin: 0;
+}
+
+/**** HEADER *****/
+header {
+  height: 797px;
+  width: auto;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  padding: 288px 0 70px 0;
+}
+
+h1 span {
+  color: #6E826B;
+}
+
+header img {
+  padding-right:25px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+/**** ABOUT *****/
+#about {
+  background-color: #6E826B;
+  background-size: auto;
+  text-align: center;
+  color: white;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.image {
+  height:290px;
+  width: 290px;
+}
+
+img.image {
+  width: auto;
+  height: auto;
+  border: 5px solid #ffffff;
+}
+
+#about h3 {
+  padding-bottom: 43px;
+}
+
+#about p {
+  padding-bottom: 164px;
+}
+
+/***** PORTFOLIO *****/
+#portfolio ul li {
+  display: inline-block;
+  width: 330px;
+  height: auto;
+  padding-bottom: 175px;
+}
+
+#portfolio p, #portfolio h4 {
+  padding: 0;
+  margin: 0;
+}
+
+#portfolio ul li img {
+  height: 220px;
+  width: 330px;
+}
+
+#portfolio .project-2 {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+/***** CONNECT *****/
+#connect {
+  color: #ffffff;
+  height: 600px;
+}
+
+#connect h3 {
+  padding-bottom: 67px;
+}
+
+.hire-me, .follow-me, .meet-me {
+  float: left;
+  text-align: center;
+}
+
+.hire-me {
+  padding-left: 70px;
+}
+
+.follow-me {
+  padding-left: 120px;
+  padding-right: 73px;
+}
+
+#connect ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+/***** FOOTER ****/
+footer {
+  clear: both;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
