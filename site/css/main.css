@@ -1,14 +1,18 @@
 /***** BASE STYLES *****/
-.container {
+body {
   font-family: 'Open Sans', sans-serif;
-  width: 1200px;
-  height:auto;
-  padding: 0 70px 0 100px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 h1, h3 {
     font-family: 'Libre Baskerville';
 }
+
 h1 {
   font-size: 64px;
 }
@@ -40,12 +44,13 @@ p {
 /**** HEADER *****/
 header {
   height: 797px;
-  width: auto;
 }
 
 nav ul {
   list-style: none;
   float: right;
+  padding-right: 73px;
+
 }
 
 nav ul li {
@@ -56,16 +61,20 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: inherit;
-  padding-left: 20px;
+  padding-right: 20px;
   font-weight: 700;
 }
 
 h1 {
-  padding: 288px 0 70px 0;
+  padding: 288px 70px 70px 100px;
 }
 
 h1 span {
   color: #6E826B;
+}
+
+h2 {
+  padding: 0 70px 0 100px;
 }
 
 header img {
@@ -107,27 +116,39 @@ img.image {
 }
 
 /***** PORTFOLIO *****/
-#portfolio ul li {
-  display: inline-block;
+#portfolio {
+  height: 847px;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolio h3 {
+  padding-bottom: 90px;
+}
+
+#portfolio .third-width {
   width: 330px;
   height: auto;
-  padding-bottom: 175px;
+  float: left;
 }
 
-#portfolio p, #portfolio h4 {
-  padding: 0;
-  margin: 0;
+#project-1 {
+  margin-left: 100px;
 }
 
-#portfolio ul li img {
+#project-2 {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#portfolio img {
   height: 220px;
   width: 330px;
+  border: 1px solid #7b7b7b;
 }
 
-#portfolio .project-2 {
-  padding-left: 70px;
-  padding-right: 70px;
-}
 
 /***** CONNECT *****/
 #connect {
@@ -140,6 +161,8 @@ img.image {
 }
 
 .hire-me, .follow-me, .meet-me {
+  width: 335px;
+  height: 300px;
   float: left;
   text-align: center;
 }
@@ -147,7 +170,6 @@ img.image {
 .hire-me {
   padding-left: 70px;
 }
-
 .follow-me {
   padding-left: 120px;
   padding-right: 73px;
@@ -156,12 +178,19 @@ img.image {
 #connect ul li {
   list-style: none;
   display: inline-block;
+  text-align: center;
+}
+
+#connect ul li .github {
+  padding: 0 37px 0 37px;
 }
 
 /***** FOOTER ****/
 footer {
+  height: 100%;
   clear: both;
   text-align: center;
   padding: 0;
   margin: 0;
+  color: #fff;
 }

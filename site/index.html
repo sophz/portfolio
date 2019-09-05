@@ -7,8 +7,8 @@
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700&display=swap" rel="stylesheet">
     </head>
     <body>
-      <section class="container">
-      <header>
+      <div class="container">
+      <header class="full-width">
         <nav>
           <ul>
             <li><a href="#about">About</a></li>
@@ -17,10 +17,10 @@
           </ul>
         </nav>
         <h1><img src="img/computer-icon.png" alt="Computer Icon" />Well Hello, <br>My name is <span>Sophie Zinda.</span></h1>
-        <h2>I am a curious enthusiastic web developer in Portland, Oregon.</h2>
+        <h2>I am a curious enthusiastic web developer<br> in Portland, Oregon.</h2>
       </header>
 
-      <section id="about">
+      <section id="about" class="full-width">
         <h3>About Me</h3>
         <img class="image" src="img/me.png" alt="Photo of me" />
         <h4>I am passionate about the web.</h4>
@@ -28,32 +28,42 @@
         <br><br>Can't wait to work with you!</p>
       </section>
 
-      <section id="portfolio">
+      <section id="portfolio" class="full-width">
         <h3>My Portfolio</h3>
-          <ul>
-            <li class="project-1"><img src="img/jubilee.png" alt="Jubilee Website" /><h4>Jubilee Austen Project</h4><p>HTML & CSS Website</p></li>
-            <li class="project-2"><img src="img/rogue-pickings.png" alt="Rogue Pickings Website" /><h4>Rogue Pickings Website</h4><p>HTML & CSS from Photoshop Design Comp</p></li>
-            <li class="project-3"><img src="img/holstee.png" alt="Holstee Manifesto" /><h4>Holstee Manifesto</h4><p>HTML5 & CSS Exercise</p></li>
-        </ul>
+        <div class="third-width" id="project-1">
+              <img src="img/jubilee.png" alt="Jubilee Website" />
+              <h4>Jubilee Austen Project</h4>
+              <p>HTML & CSS Website</p>
+            </div>
+            <div class="third-width" id="project-2">
+              <img src="img/rogue-pickings.png" alt="Rogue Pickings Website" />
+              <h4>Rogue Pickings Website</h4>
+              <p>HTML & CSS from Photoshop Design Comp</p>
+            </div>
+            <div class="third-width" id="project-3">
+              <img src="img/holstee.png" alt="Holstee Manifesto" />
+              <h4>Holstee Manifesto</h4>
+              <p>HTML5 & CSS Exercise</p>
+            </div>
       </section>
 
       <div class="bottom-third">
-      <section id="connect">
+      <section id="connect" class="full-width">
         <h3>Let's Connect</h3>
-          <div class="hire-me">
+          <div class="hire-me" class="third-width">
             <h4>Hire me</h4>
             <p>555-555-5555<br>
               sophiezinda17@gmail.com</p>
           </div>
-          <div class="follow-me">
+          <div class="follow-me" class="third-width">
             <h4>Follow Me</h4>
             <ul>
-              <li><a href=""><img src="img/twitter.png" alt="Twitter Icon" /></a></li>
-              <li><a href=""><img src="img/github.png" alt="GitHub Icon" /></a></li>
-              <li><a href=""><img src="img/linkedin.png" alt="LinkedIn Icon" /></a></li>
+              <li><a href=""><img src="img/twitter.png" alt="Twitter Icon" class="twitter"/></a></li>
+              <li><a href=""><img src="img/github.png" alt="GitHub Icon" class="github" /></a></li>
+              <li><a href=""><img src="img/linkedin.png" alt="LinkedIn Icon" class="linkedin" /></a></li>
             </ul>
           </div>
-          <div class="meet-me">
+          <div class="meet-me" class="third-width">
             <h4>Meet me</h4>
             <p>Portland, OR <br>
               Let's go to meetups together!</p>
@@ -64,6 +74,6 @@
         <h5>Copyright 2019 | Sophie Zinda</h5>
       </footer>
     </div>
-    </section>
+  </div>
     </body>
 </html>
